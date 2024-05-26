@@ -27,8 +27,18 @@
 
 		 
 			 */
+		$number1 = 10;
+		$number2 = 20;
 
+		echo $number1 + $number2 . "<br>";
+		$array_regular = [10, 20];
+		$array_associative = ['number_one' => 10, 'number_two' => 20];
 		
+		echo $array_regular[0] . "</br>";
+		echo $array_regular[1] . "</br>";
+
+		echo $array_associative['number_one'] . "</br>";
+		echo $array_associative['number_two'] . "</br>";
 
 
 		?>
