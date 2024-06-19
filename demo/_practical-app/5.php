@@ -15,9 +15,14 @@
 	<?php 
 
 
+	echo pi() . "<br>";
+	echo str_increment("AA1") . "<br>";
+
+	$array = ['Tina' => 'Apple','Dennis' => 'Orange'];
+	echo array_key_first($array); 
 /*  Step1: Use a pre-built math function here and echo it
 
-
+	
 	Step 2:  Use a pre-built string function here and echo it
 
 
